@@ -1,11 +1,13 @@
 let L;
 let datafile, data;
 
+
 function preload()
 {
-  datafile = loadBytes('data.bin');
-  //datafile = loadBytes('https://cdn.jsdelivr.net/gh/anbarsode/p5viz_testing/data.bin');
+  //datafile = loadBytes('data.bin');
+  datafile = loadBytes('https://cdn.jsdelivr.net/gh/anbarsode/p5viz_testing/data.bin');
 }
+
 
 function setup()
 {
