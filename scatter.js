@@ -21,6 +21,7 @@ function setup()
   H = height * 0.5;
   textFont(font);
   readBinaryData();
+
 }
 
 function draw()
@@ -29,11 +30,19 @@ function draw()
   background('#000000');
   orbitControl(); // enable mouse rotation
   
-  ortho();
+  //ortho();
   scale(1,-1,1);
 
   axes();
-	
+
+  /*
+  let tex = createP();
+  tex.style('font-size', '20px')
+  tex.style('color', '#FFFFFF');
+  tex.position(135, 165);
+  katex.render('\\nabla^{2}\\Phi=\\sigma(x)', tex.elt);
+  */
+
   if (xyzw.length === 0) return;
 
   // Scatter points
