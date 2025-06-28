@@ -14,6 +14,7 @@ Longer term todo
 * Colorbar with numbers
 * Choose colormap while viewing
 * Editable colormap
+* Latex labels
 * Snapping to top, side and front view
 * Toggle between ortho and perspective
 * Translate view
