@@ -5,8 +5,8 @@ let binfile;
 
 function preload()
 {
-  binfile = loadBytes('data.bin');
-  //binfile = loadBytes('https://cdn.jsdelivr.net/gh/anbarsode/p5viz_testing/data.bin');
+  //binfile = loadBytes('data.bin');
+  binfile = loadBytes('https://cdn.jsdelivr.net/gh/anbarsode/p5viz_testing/data.bin');
   font = loadFont('DMSerifText-Regular.ttf'); // Preload the font. For 3D to work, we need a font file (not a linked font).
 }
 
